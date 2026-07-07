@@ -8,7 +8,7 @@ names against the real source files before committing, then adjust as needed.
 
 ## 1. Dark/Light Mode Toggle Not Functioning
 
-**Priority:** Medium | **Component:** Frontend/UI | **Source:** GitHub Issue #5253
+**Priority:** Medium | **Component:** Frontend/UI 
 
 **Problem:** The theme toggle button does not switch between dark and light
 mode, or the choice doesn't persist across pages.
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## 2. Homepage Search Bar Does Not Filter Games
 
-**Priority:** Medium | **Component:** Frontend/Search | **Source:** GitHub Issues #5253, #5234
+**Priority:** Medium | **Component:** Frontend/Search |
 
 **Problem:** Typing into the search bar does not filter the visible games list.
 
@@ -74,7 +74,7 @@ searchInput.addEventListener("input", (e) => {
 
 ## 3. Candy Crush Shows Non-Zero Score on Load
 
-**Priority:** Low-Medium | **Component:** Games/Candy Crush | **Source:** GitHub Issue #5230
+**Priority:** Low-Medium | **Component:** Games/Candy Crush | 
 
 **Problem:** Score displays a non-zero value immediately on page load, before
 any player interaction.
@@ -110,7 +110,7 @@ function checkMatches(isInitialSetup = false) {
 
 ## 4. Tetris "Start New Game" Button Non-Functional
 
-**Priority:** Medium | **Component:** Games/Tetris | **Source:** GitHub Issue #5223
+**Priority:** Medium | **Component:** Games/Tetris | 
 
 **Problem:** Clicking "Start New Game" does nothing — no reset, no new game.
 
@@ -146,7 +146,7 @@ startBtn.addEventListener("click", resetGame);
 
 ## 5. Pac-Man Does Not Restart After Game Over (Uses Full Page Refresh)
 
-**Priority:** Medium-High | **Component:** Games/Pac-Man | **Source:** GitHub PR #5185 (commit history)
+**Priority:** Medium-High | **Component:** Games/Pac-Man | 
 
 **Problem:** After Game Over, clicking Restart/Play Again reloads the entire
 page instead of resetting the game state in place.
